@@ -30,5 +30,7 @@
     "nyc": "^15.1.0",
     "standard": "^14.3.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }
