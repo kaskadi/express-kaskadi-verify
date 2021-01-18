@@ -20,7 +20,7 @@
  *
  * @example
  *
- * const verifier = require('express-kaskadi-verify')('http://localhost:3000') // instanciate a new verifier
+ * const verify = require('express-kaskadi-verify')('http://localhost:3000') // instanciate a new verifier
  * const express = require('express')
  * const app = express()
  * const port = 4000
