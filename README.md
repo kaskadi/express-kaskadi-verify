@@ -59,11 +59,11 @@ app.get('/issuer-example', verify({ issuer: ['my-issuer'] }), (req, res) => {
   res.json(req.user)
 }) // verify against the JWT issuer
 
-app.get('/admin', verify({audience: ['admin'] }), (req, res) => {
+app.get('/admin', verify({ audience: ['admin'] }), (req, res) => {
   res.json(req.user)
 }) // verify against the JWT audience
 
-app.get('/some/subject', verify({subject: ['some'] }), (req, res) => {
+app.get('/some/subject', verify({ subject: ['some'] }), (req, res) => {
   res.json(req.user)
 }) // verify against the JWT subject
 
